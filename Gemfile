@@ -48,3 +48,12 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+gem 'devise'
+gem 'simple_form'
+gem 'will_paginate', '~> 3.1.0'
+gem 'ransack'
+gem 'simple_enum'
+gem 'barby'
+gem 'nokogiri'
+gem 'rubyzip'
+gem 'jquery-ui-rails'
