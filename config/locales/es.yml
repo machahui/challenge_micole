@@ -1,0 +1,9 @@
+es:
+  activerecord:
+    models:
+      partner:
+        one: 'Cliente'
+        other: 'Clientes'
+      attributes:
+        partner:
+          email: 'Correo Electronico'
