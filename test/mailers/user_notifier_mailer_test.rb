@@ -1,6 +1,6 @@
 require 'test_helper'
 
-class PartnerToPreferenceTest < ActiveSupport::TestCase
+class UserNotifierMailerTest < ActionMailer::TestCase
   # test "the truth" do
   #   assert true
   # end

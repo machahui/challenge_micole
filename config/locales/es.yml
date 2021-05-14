@@ -4,6 +4,29 @@ es:
       partner:
         one: 'Cliente'
         other: 'Clientes'
-      attributes:
+      preference:
+        one: 'Preferencia'
+        other: 'Preferencias'
+    attributes:
         partner:
           email: 'Correo Electronico'
+          preference_ids: 'Preferencias'
+          preferences: 'Preferencias'
+    errors:
+        models:
+          partner:
+            attributes:
+              email:
+                blank: 'es un campo requerido'
+                taken: 'este correo ya no esta disponible'
+                invalid: 'es invalido'
+              preferences:
+                blank: 'elija el menos uno'
+
+  helpers:
+    submit:
+      partner:
+        create: 'Guardar %{model}'
+
+  partner:
+    errors: 'Corregir las observaciones por favor'
