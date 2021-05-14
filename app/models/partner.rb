@@ -32,7 +32,7 @@ class Partner < ApplicationRecord
 			rescue => error
 				puts "Statu"
 				puts error.message
-				errors.add(:base, 'Miquias Achahui')
+				#errors.add(:base, 'Miquias Achahui')
 			end
 			
 			#rescue StandardError => error 

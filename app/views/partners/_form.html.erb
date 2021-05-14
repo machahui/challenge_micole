@@ -13,8 +13,11 @@
 
   <div class="field">
     <%= form.label :email %>
-    <%= form.text_field :email, id: :partner_email %>
-    <%= form.collection_check_boxes :preference_ids, Preference.all, :id, :name %>
+    <%= form.text_field :email, id: :partner_email ,class: "form-control"%>
+    <br/>
+    <%= form.label :preference_ids %>
+    <br/>
+    <%= form.collection_check_boxes :preference_ids, Preference.all, :id, :name,class: "form-control" %>
   </div>
 
   <div class="actions">
