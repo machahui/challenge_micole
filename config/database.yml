@@ -27,8 +27,8 @@ production:
   adapter: postgresql
   encoding: unicode
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
-  username: qlekxugmmrtmdu
-  password: 8ecfbdf60372b6baea70e5dc92532c8cacf23d0af1181cb698b94ee3038fbaad
-  database: dfel44695egm25
-  host: ec2-23-21-65-173.compute-1.amazonaws.com
+  username: yoaxywxuhfefma
+  password: 4e1accfdd13071e14e7ca7e65c4913fc1591b012a9eb6b26c98e77c940cdd4ee
+  database: d489b77p7uoii1
+  host: ec2-18-215-111-67.compute-1.amazonaws.com
   port: 5432
