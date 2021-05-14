@@ -1,24 +1,25 @@
-# README
+# Micolet coding challenge
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Es proyecto se realizo en la siguientes versiones:
 
-Things you may want to cover:
+* Ruby version: 2.3.3
 
-* Ruby version
+* Rails version: 5.1.6
 
-* System dependencies
+* sqlite3
 
-* Configuration
+Intrucciones para despegar el proyecto:
+1. Ejecute > bundle install
+2. Ejecute > rails db:migrate
+3. Ejecute > rails server
+4. Ingrese a http://localhost:3000/preferences/new
+    y crea las preferencias(Moda mujer, Moda Hombre, Moda infantil)
+5. Finalmente ingrese a http://localhost:3000/partners/new
+   
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+   
+Observaciones:
+* Se trabajo todas las validaciones.
+* Envío de email de confirmacion de suscripción.
+* Se trabajo la validación de consulta externa de correo(extra 1)
+* Se trabajo la internacionalización (extra 2) 
